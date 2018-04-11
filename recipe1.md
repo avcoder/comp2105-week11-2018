@@ -43,7 +43,7 @@
 
 
 
-## Animate Tab 2
+## Animate Tab 2 
 * Select Tab 2 so it's active > Interactions > Add Element Trigger > Mouse Click
 * On 1st Click > Start an animation > Add Timed Animation > name it tab2move
 * Select Tab1's paragraph > Set initial state > Move x:0px
@@ -51,7 +51,12 @@
 * (2nd paragraph) Add Timed action end > Move x: 0px
 * (1st paragraph) Add Timed action end > Move x: -1000px
 
-
+## Final things
+* Play with easing (swingTo) and duration (0.8s)
+* (5 minute exercise) Add a floating highlight line 
+* See other webflow finished example
+* Try Adding a page load trigger
+* Try saving entire thing as a symbol
 
 
 
