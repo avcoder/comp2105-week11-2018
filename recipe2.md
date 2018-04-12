@@ -1,0 +1,2 @@
+# Adobe Animate - motion path
+
