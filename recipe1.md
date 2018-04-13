@@ -18,17 +18,18 @@
 
 
 ## Recreate tabbed example from uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5
-* Change layout view to tablet portrait 
 * Add element > section | height: 100vh
-* Add a container within section | height: 100%
 
 ## Add tabs
-* Add element > div | width: 50%; height: 50px; background-color: royalblue; display: inline-block;
-* Add element > div | width: 50%; height: 50px; background-color: skyblue; display: inline-block;
+* Add a container within section | height: 60px;
+* Add element > div | width: 50%; height: 50px; border: 1px solid black;
+* Add element > div | width: 50%; height: 50px; border: 1px solid black;
+* Make tabs' container display: flex;
 
 ## Add tab content
+* Add a container below tabs' container | height: 50vh
 * Add element > div which sits below tabs (so it's same hierarchy)
-* Add element > paragraph | padding: 10px; height: 300px; border: 3px solid royalblue; border-radius: 25px;
+* Add element > paragraph | padding: 10px; height: 300px; border: 3px solid black; border-radius: 25px;
 * Add paragraph again right after 1st paragraph for 2nd tab's content but make border skyblue
 
 ## Animate Tab 1
